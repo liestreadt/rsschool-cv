@@ -1,1 +1,1 @@
-https://liestreadt.github.io/rsschool-cv/cv
+https://liestreadt.github.io/rsschool-cv/
