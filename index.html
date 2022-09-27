@@ -1,103 +1,111 @@
 <html lang="en-US">
-<head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>CV of Vladislav Nikishin</title>
-<link href="style.css"rel="stylesheet">
-</head>
-<body>
-<main>
-<header>
-<h1>Vladislav Nikishin</h1>
-<a href="https://github.com/liestreadt"><img title="https://github.com/liestreadt" src="images/sir galahad.png" alt="avatar"></a>
-</header>
-<hr>
-<h3>Contact information</h3>
-<ul>
-<li><strong>E-mail:</strong> Nik_vladislav@outlook.com</li>
-<li><strong>Telegram:</strong> @Liester</li>
-<li><strong>Discord:</strong> liestreadt#9712</li>
-</ul>
-<hr>
-<h3>About Myself</h3>
-<p>
-I have been working as a research engineer at Mordovian State University for a couple of years, and before that I studied physics for six years.
-Starting in 2020, I began to catch myself thinking that programming attracts me more than physics itself.
-Around the summer of year 21, I decided to start self-learning programming.
-I chose the profession of a front-end developer, as I consider this profession to be optimal for a beginner.
-Studying at the university allows you to get a lot of soft skills, so at the moment I’m focused on getting hard skills and compiling my portfolio in my spare time.
-If I successfully complete my studies at Rolling Scopes School and receive a certificate, I plan to start going to interviews and try to get a new job.
-</p>
-<hr>
-<h3>Skills</h3>
-<ul>
-<li>HTML5 / CSS3</li>
-<li>JavaScript (ES6+)</li>
-<li>Git / GitHub</li>
-<li title="Продвинутая вёрстка (pug, SCSS, gulp)">Pug (basics)</li>
-<li title="Продвинутая вёрстка (pug, SCSS, gulp)">SASS / SCSS (basics)</li>
-<li title="Продвинутая вёрстка (pug, SCSS, gulp)">Gulp / WebPack (basics)</li>
-</ul>
-<hr>
-<h3>Code Example</h3>
-<p>
-<strong>The Hashtag Generator KATA from CODEWARS:</strong>
-<br>
-It must start with a hashtag (#).
-All words must have their first letter capitalized.
-If the final result is longer than 140 chars it must return false.
-If the input or the result is an empty string it must return false.
-</p>
-<pre>
-<code>
-function generateHashtag(str) {
-if (str.trim() == '') return false;
-let arr = str.split(' ').map(elem = &gt; elem ? elem[0].toUpperCase() + elem.slice(1) : '');
-arr.unshift('#');
-let result = arr.join('');
-if (result.length &gt; 140) return false;
-return result;
-}
-</code>
-</pre>
-<hr>
-<h3>Experience</h3>
-<ul>
-<li>
-<span title="https://github.com/liestreadt/animated-web-page">
-<a href="https://github.com/liestreadt/animated-web-page">Гостевая книга (HTML, CSS, JS)</a>
-</span>
-<br>
-<span>Final task of the 1st part of the Kokoc Group courses</span>
-</li>
-<li>
-<span title="https://github.com/liestreadt/kokoc-group-2nd-stage-final-task">
-<a href="https://github.com/liestreadt/kokoc-group-2nd-stage-final-task">Продвинутая вёрстка (pug, SCSS, gulp)</a>
-</span>
-<br>
-<span>Final task of the 2st part of the Kokoc Group courses</span>
-</li>
-</ul>
-<hr>
-<h3>Education</h3>
-<p><strong>Univeristy:</strong></p>
-<ul>
-<li>MRSU 2020 (master of physics)</li>
-</ul>
-<p><strong>Courses:</strong></p>
-<ul>
-<li title="https://vk.com/kokocsaransk?w=wall-171508340_41"><a href="https://vk.com/kokocsaransk?w=wall-171508340_41">Kokoc Group Saransk</a></li>
-<li title="https://learn.javascript.ru/">JavaScript Manual on <a href="https://learn.javascript.ru/">learn.javascript.ru</a></li>
-</ul>
-<hr>
-<h3>Languages</h3>
-<p>Russian - native</p>
-<p>English - upper-intermediate (according to <a title = "https://www.efset.org/cert/Mu9Xgc" href="https://www.efset.org/cert/Mu9Xgc">ES FET certificate</a>)</p>
-<p title = "https://www.efset.org/cert/Mu9Xgc">
-<a href="https://www.efset.org/cert/Mu9Xgc"><img src="images/certificate_english.jpg" alt="certificate"></a>
-</p>
-<hr>
-</main>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CV of Vladislav Nikishin</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Vladislav Nikishin</h1>
+        <a href="https://github.com/liestreadt"><img title="https://github.com/liestreadt" src="images/sir galahad.png" alt="avatar"></a>
+      </header>
+      <hr>
+
+      <h3>Contact information</h3>
+      <ul>
+        <li><strong>E-mail:</strong> Nik_vladislav@outlook.com</li>
+        <li><strong>Telegram:</strong> @Liester</li>
+        <li><strong>Discord:</strong> liestreadt#9712</li>
+      </ul>
+      <hr>
+
+      <h3>About Myself</h3>
+      <p>
+        I have been working as a research engineer at Mordovian State University for a couple of years, and before that I studied physics for six years.
+        Starting in 2020, I began to catch myself thinking that programming attracts me more than physics itself.
+        Around the summer of year 21, I decided to start self-learning programming.
+        I chose the profession of a front-end developer, as I consider this profession to be optimal for a beginner.
+        Studying at the university allows you to get a lot of soft skills, so at the moment I’m focused on getting hard skills and compiling my portfolio in my spare time.
+        If I successfully complete my studies at Rolling Scopes School and receive a certificate, I plan to start going to interviews and try to get a new job.
+      </p>
+      <hr>
+
+      <h3>Skills</h3>
+      <ul>
+        <li>HTML5 / CSS3</li>
+        <li>JavaScript (ES6+)</li>
+        <li>Git / GitHub</li>
+        <li title="Продвинутая вёрстка (pug, SCSS, gulp)">Pug (basics)</li>
+        <li title="Продвинутая вёрстка (pug, SCSS, gulp)">SASS / SCSS (basics)</li>
+        <li title="Продвинутая вёрстка (pug, SCSS, gulp)">Gulp / WebPack (basics)</li>
+      </ul>
+      <hr>
+
+      <h3>Code Example</h3>
+      <p>
+        <strong>The Hashtag Generator KATA from CODEWARS:</strong>
+        <br>
+        It must start with a hashtag (#).
+        All words must have their first letter capitalized.
+        If the final result is longer than 140 chars it must return false.
+        If the input or the result is an empty string it must return false.
+      </p>
+      <pre>
+        <code>
+        function generateHashtag(str) {
+        if (str.trim() == '') return false;
+        let arr = str.split(' ').map(elem = &gt; elem ? elem[0].toUpperCase() + elem.slice(1) : '');
+        arr.unshift('#');
+        let result = arr.join('');
+        if (result.length &gt; 140) return false;
+        return result;
+        }
+        </code>
+      </pre>
+      <hr>
+
+      <h3>Experience</h3>
+      <ul>
+        <li>
+          <span title="https://github.com/liestreadt/animated-web-page">
+          <a href="https://github.com/liestreadt/animated-web-page">Гостевая книга (HTML, CSS, JS)</a>
+          </span>
+          <br>
+          <span>Final task of the 1st part of the Kokoc Group courses</span>
+        </li>
+        <li>
+          <span title="https://github.com/liestreadt/kokoc-group-2nd-stage-final-task">
+          <a href="https://github.com/liestreadt/kokoc-group-2nd-stage-final-task">Продвинутая вёрстка (pug, SCSS, gulp)</a>
+          </span>
+          <br>
+          <span>Final task of the 2st part of the Kokoc Group courses</span>
+        </li>
+      </ul>
+      <hr>
+
+      <h3>Education</h3>
+      <p><strong>Univeristy:</strong></p>
+      <ul>
+        <li>MRSU 2020 (master of physics)</li>
+      </ul>
+      <p><strong>Courses:</strong></p>
+      <ul>
+        <li title="https://vk.com/kokocsaransk?w=wall-171508340_41"><a href="https://vk.com/kokocsaransk?w=wall-171508340_41">Kokoc Group Saransk</a></li>
+        <li title="https://learn.javascript.ru/">JavaScript Manual on <a href="https://learn.javascript.ru/">learn.javascript.ru</a></li>
+      </ul>
+      <hr>
+
+      <h3>Languages</h3>
+      <p>Russian - native</p>
+      <p>English - upper-intermediate (according to <a title="https://www.efset.org/cert/Mu9Xgc" href="https://www.efset.org/cert/Mu9Xgc">ES FET certificate</a>)</p>
+      <p title="https://www.efset.org/cert/Mu9Xgc">
+        <a href="https://www.efset.org/cert/Mu9Xgc"><img src="images/certificate_english.jpg" alt="certificate"></a>
+      </p>
+      <hr>
+
+    </main>
+  </body>
 </html>
