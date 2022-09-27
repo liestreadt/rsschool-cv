@@ -53,7 +53,8 @@ __Courses:__
 ### Languages
 Russian - native
 
-English - upper-intermediate (according to [ES FET certificate](https://www.efset.org/cert/Mu9Xgc))  
+English - upper-intermediate (according to [ES FET certificate](https://www.efset.org/cert/Mu9Xgc))
+
 [![certificate](./images/certificate_english.jpg)](https://www.efset.org/cert/Mu9Xgc)
 
 ---
