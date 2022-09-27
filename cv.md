@@ -1,14 +1,19 @@
 # Vladislav Nikishin
+
 ---
+
 ### Contact information
 - **E-mail:** Nik_vladislav@outlook.com
 - **Telegram:** @Liester
 - **Discord:** liestreadt#9712
+
 ---
+
 ### About Myself
 I have been working as a research engineer at Mordovian State University for a couple of years, and before that I studied physics for six years. Starting in 2020, I began to catch myself thinking that programming attracts me more than physics itself. Around the summer of 21, I decided to start self-learning programming. I chose the profession of a front-end developer, as I consider this profession to be optimal for a beginner. Studying at the university allows you to get a lot of soft skills, so at the moment I'm focused on getting hard skills and compiling my portfolio in my spare time. If I successfully complete my studies at Rolling Scopes School and receive a certificate, I plan to start going to interviews and try to get a new job.
 
 ---
+
 ### Skills
 - HTML5 / CSS3
 - JavaScript (ES6+)
@@ -16,7 +21,9 @@ I have been working as a research engineer at Mordovian State University for a c
 - Pug (basics)
 - SASS / SCSS (basics)
 - Gulp / WebPack (basics)
+
 ---
+
 ### Code Example
 __The Hashtag Generator KATA from CODEWARS:__
 It must start with a hashtag (#).
@@ -39,6 +46,7 @@ function generateHashtag(str) {
 - [Гостевая книга (HTML, CSS, JS)](https://github.com/liestreadt/animated-web-page) (final task of the 1st part of the Kokoc Group courses)
 
 - [Продвинутая вёрстка (pug, SCSS, gulp)](https://github.com/liestreadt/kokoc-group-2nd-stage-final-task) (final task of the 2st part of the Kokoc Group courses)
+
 ---
 
 ### Education
@@ -50,6 +58,7 @@ __Courses:__
 - JavaScript Manual on [learn.javascript.ru](https://learn.javascript.ru/)
 
 ---
+
 ### Languages
 Russian - native
 
